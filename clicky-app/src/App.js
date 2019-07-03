@@ -1,25 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
+import background from './parkPickBackground.jpg'
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container background p-0 m-0 col-12">
+
+      <div className="row text-center">
+        <h1 className="col-8 offset-2 mt-5">Park Pick</h1>
+        <h4 className="col-10 offset-1 mt-3">Click on a park to earn points, but don't click on it more than once.</h4>
+      </div>
+
+      <div className="row">
+        <div className="content col-10 offset-1 mt-3">
+        Test Test Test
+        </div>
+      </div>
+
     </div>
+
   );
 }
 
