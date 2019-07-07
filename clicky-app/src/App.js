@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
-import background from './parkPickBackground.jpg'
+import ParkCard from './components/ParkCard'
+import parks from "./parks.json"
+import Wrapper from "./components/Wrapper"
 import './App.css';
 
+class App extends Component {
+  state = {
+    parks
+  };
 
-function App() {
+  render() {
   return (
     <div className="container background p-0 m-0 col-12">
 
@@ -14,14 +20,23 @@ function App() {
       </div>
 
       <div className="row">
-        <div className="content col-10 offset-1 mt-3">
-        Test Test Test
+        <div className="content col-8 offset-2 mb-5 py-3">
+          <Wrapper>
+            {parks.map(park => (
+              <ParkCard
+                id={park.id}
+                image={park.image}
+                name={park.name}
+              />
+            ))}
+          </Wrapper>
         </div>
       </div>
 
     </div>
 
   );
+}
 }
 
 export default App;

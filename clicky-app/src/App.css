@@ -7,11 +7,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  height: 150vh;
+  height: 100%;
 }
 
 .content {
   height: 100%;
-    background-color: #FFFFFF;
-    opacity: .4;
+  background-color: #FFFFFF;
+  border-radius: 15px;
 }
