@@ -8,3 +8,8 @@
     width: 150px;
     height: 100px;
 }
+
+.parkBtn {
+    background-color: #A3C4BC;
+    border: #A3C4BC;
+}
