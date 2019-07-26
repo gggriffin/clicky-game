@@ -16,17 +16,33 @@ class App extends Component {
 
   currentIncrement = () => {
     this.setState({ currentScore: this.state.currentScore + 1 });
+
+    if (this.state.currentScore >= this.state.highScore) {
+      this.state.highScore++;
+    }
   };
 
-  highIncrement = () => {
-    this.setState({ highScore: this.state.highScore + 1 });
+  scoreCheck = () => {
+    if(this.state.highScore === 12) {
+      this.setState({ currentScore: this.state.currentScore = 0 });
+    } 
   };
+
+  trueCheck = () => {
+    this.setState({
+      data: this.resetGame(parks),
+      currentScore: 0
+    });
+  };
+    resetGame = parks => {
+      const resetGame = parks.map(item => ({ ...item, beenclicked: false}));
+      console.log('resetGame')
+      return resetGame
+    };
 
 
   render() {
     shuffle(parks);
-
-
 
     return (
       <div className="container background p-0 m-0 col-12">
@@ -46,7 +62,8 @@ class App extends Component {
                   image={park.image}
                   name={park.name}
                   currentIncrement={this.currentIncrement}
-                  highIncrement={this.highIncrement}
+                  scoreCheck={this.scoreCheck}
+                  trueCheck={this.trueCheck}
                 />
               ))}
             </Wrapper>

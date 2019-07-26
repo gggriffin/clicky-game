@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 
+
 function Score(props) {
         return (
             <div className="col-8 offset-2 mt-3 mb-3 score-bar p-3 score-bar">
