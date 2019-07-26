@@ -1,0 +1,15 @@
+.card {
+    background-color: #A3C4BC;
+    border-radius: 5%;
+    margin: auto;
+}
+
+.img {
+    width: 150px;
+    height: 100px;
+}
+
+.parkBtn {
+    background-color: #A3C4BC;
+    border: #A3C4BC;
+}

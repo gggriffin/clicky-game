@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Yellowstone",
+        "image": "/assets/parkPick1.jpg",
+        "beenclicked": false
+    },
+    {
+        "id": 2,
+        "name": "Yosemite",
+        "image": "/assets/parkPick2.jpg",
+        "beenclicked": false
+    },{
+        "id": 3,
+        "name": "Grand Canyon",
+        "image": "/assets/parkPick3.jpg",
+        "beenclicked": false
+    },{
+        "id": 4,
+        "name": "Glacier",
+        "image": "/assets/parkPick4.jpg",
+        "beenclicked": false
+    },{
+        "id": 5,
+        "name": "Arches",
+        "image": "/assets/parkPick5.jpg",
+        "beenclicked": false
+    },{
+        "id": 6,
+        "name": "Big Bend",
+        "image": "/assets/parkPick6.jpg",
+        "beenclicked": false
+    },{
+        "id": 7,
+        "name": "Olympic",
+        "image": "/assets/parkPick7.jpg",
+        "beenclicked": false
+    },{
+        "id": 8,
+        "name": "Rocky Mountain",
+        "image": "/assets/parkPick8.jpg",
+        "beenclicked": false
+    },{
+        "id": 9,
+        "name": "Grand Teton",
+        "image": "/assets/parkPick9.jpg",
+        "beenclicked": false
+    },{
+        "id": 10,
+        "name": "Redwood",
+        "image": "/assets/parkPick10.jpg",
+        "beenclicked": false
+    },{
+        "id": 11,
+        "name": "Everglades",
+        "image": "/assets/parkPick11.jpg",
+        "beenclicked": false
+    },{
+        "id": 12,
+        "name": "Canyonlands",
+        "image": "/assets/parkPick12.jpg",
+        "beenclicked": false
+    }
+]
